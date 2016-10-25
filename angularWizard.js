@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('ngWizard')
+    .module('ngWizard', [])
     .directive('angularWizard', angularWizardDirective)
     .directive('angularWizardFrame', angularWizardFrameDirective)
     .animation('.item', ['$animateCss', angularWizardAnimation]);
